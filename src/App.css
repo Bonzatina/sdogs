@@ -1,0 +1,79 @@
+@font-face {
+  font-family: BreeSerif-Regular;
+  src: url("./BreeSerif-Regular.otf") format("opentype");
+}
+
+.App {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.App_top {
+  height: 91vh;
+  overflow: hidden;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("top_img.jpeg");
+  background-position: bottom;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App_top_text {
+  padding: 15px 60px;
+  width: 480px;
+  background-color: #fff;
+  opacity: 0.8;
+  font-size: 38px;
+  font-family: BreeSerif-Regular;
+}
+
+@media (max-width: 1349px) {
+  .App_top {
+    height: 66vh;
+  }
+}
+
+@media (max-width: 989px) {
+  .App_top {
+    height: 48vh;
+  }
+}
+
+@media (max-width: 689px) {
+  .App_top {
+    height: 34vh;
+  }
+  .App_top_text {
+    width: 335px;
+  }
+}
+
+@media (max-width: 519px) {
+  .App_top {
+    height: 25vh;
+  }
+
+  .App_top_text {
+    padding: 10px;
+    font-size: 24px;
+  }
+}
+
+
+
+
+.App_middle {
+  height: 100vh;
+  background-color: #fefcf3;
+}
+
+.App_bottom {
+  height: 600px;
+
+}
