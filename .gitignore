@@ -16,6 +16,16 @@
 .env.test.local
 .env.production.local
 
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/**/*.css
+src/lion.jpeg

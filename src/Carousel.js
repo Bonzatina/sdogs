@@ -4,7 +4,7 @@ import { CSSTransitionGroup } from 'react-transition-group'
 
 import lion from './lion.jpeg';
 
-import './Carousel.less';
+import './Carousel.css';
 
 const carouselImages = [
     lion,
