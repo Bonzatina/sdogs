@@ -17,6 +17,9 @@ class App extends Component {
 
                 <div className="App_middle">
                     <CarouselComponent/>
+                    <div className="shop_button_wrap">
+                        <div className="shop_button">SHOP THE RANGE</div>
+                    </div>
                 </div>
 
                 <div className="App_bottom">
