@@ -21,7 +21,7 @@ function NextArrow(props) {
     return (
         <div
             className={className}
-            style={{...style, display: 'block', top: '155px', backgroundImage: `url(${next})`}}
+            style={{...style, display: 'block', top: '155px', backgroundImage: `url(${next})` }}
             onClick={onClick}>   </div>
     );
 }
@@ -69,7 +69,7 @@ export default class CarouselComponent extends Component {
         };
         return (
             <div>
-                <div className="products_title">FEATURE PRODUCTS</div>
+                <div className="block_title">FEATURE PRODUCTS</div>
                 <Slider {...settings} className="carousel_items">
                     {carouselItems}
                 </Slider>
